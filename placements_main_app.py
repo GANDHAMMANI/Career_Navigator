@@ -135,7 +135,22 @@ def main():
         if submit_button:
             display_emotion(result)
 
-
+     # Media screen CSS for responsiveness
+     st.markdown(
+        """
+        <style>
+            @media screen and (max-width: 600px) {
+                .block-container {
+                    padding-bottom: 50px;
+                }
+                h1 {
+                    font-size: 50px !important;
+                }
+            }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
 
     footer()
 
