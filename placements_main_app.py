@@ -47,7 +47,7 @@ def display_emotion(result):
         st.video("selected.mp4", format='video/mp4', start_time=0)
         st.balloons()
     else:
-        st.write("<p style='font-size:40px;'>After careful consideration, we regret to inform you that we will not be proceeding with your application.We wish you the very best in your future endeavors and hope you continue to strive for improvement🤞.</p>", unsafe_allow_html=True)
+        st.write("<p style='font-size:40px; text-align: justify;'>After careful consideration, we regret to inform you that we will not be proceeding with your application. We wish you the very best in your future endeavors and hope you continue to strive for improvement🤞.</p>", unsafe_allow_html=True)
 
     
 
@@ -66,22 +66,33 @@ def display_emotion(result):
 
 def footer():
     # Footer Section
+    st.write("<img src='placement_drive.png' style='border-radius: 50%; width: 150px; height: 150px; object-fit: cover;'/>", unsafe_allow_html=True)
+    st.caption("The Bad Beast Coder")
+
     st.markdown('<style>div.block-container{padding-bottom: 100px;,text-align: center;}</style>', unsafe_allow_html=True)
     st.markdown("""---""")
     st.markdown("""
-       <p  🚀 Let's Connect!
-        align="center">Developed by Mani Saketh. If you want any assistances or have any  queries. just, feel free to reach out!
+        <p  🚀 Let's Connect!
+        align='center'>Developed by Mani Saketh. If you want any assistances or have any  queries. just, feel free to reach out!
+        </p>
+        """, unsafe_allow_html=True)
+    st.markdown("""
+    <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+        <img src="faheem.jpg" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
+        <p style="text-align: center; margin-top: 10px;">Your Caption Here</p>
+    </div>"""
+        , unsafe_allow_html=True)
+    st.markdown("""
+        <p align="center">  gandhammani2421@gmail.com
         </p>
         <p align="center">
-          <a href="www.linkedin.com/in/gandhammanisaketh2421" target="_blank">
+          <a href="https://www.linkedin.com/in/gandhammanisaketh2421/" target="_blank">
             <img src="https://img.icons8.com/fluent/48/000000/linkedin.png" alt="LinkedIn" style="width:40px;"/>
           </a>
           <a href="https://github.com/GANDHAMMANI" target="_blank">
             <img src="https://img.icons8.com/fluent/48/000000/github.png" alt="GitHub" style="width:40px;"/>
           </a>
-          <a href="mailto:gandhammani2421@yahoo.com">
-            <img src="https://img.icons8.com/fluent/48/000000/mail.png" alt="Email" style="width:40px;"/>
-          </a>
+        
           <a href="https://www.instagram.com/mr.pandapal/">
             <img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" alt="Instagram" style="width: 40px;">
           </a>
@@ -89,13 +100,10 @@ def footer():
 
         </p>
 
-       <p align="center"> 
-        G.Mani Saketh
-        </p>
+       
     """, unsafe_allow_html=True)
 
 def main():
-    
     st.markdown("<h1 style='text-align: center; font-size: 100px;'>CareerNavigator 🧭</h1>", unsafe_allow_html=True)
     st.divider()
 
