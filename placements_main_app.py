@@ -47,7 +47,7 @@ def display_emotion(result):
         st.video("selected.mp4", format='video/mp4', start_time=0)
         st.balloons()
     else:
-        st.write("<p style='font-size:40px; text-align: justify;'>After careful consideration, we regret to inform you that we will not be proceeding with your application. We wish you the very best in your future endeavors and hope you continue to strive for improvement🤞.</p>", unsafe_allow_html=True)
+        st.write("<p style='font-size:25px; text-align: justify;'>After careful consideration, we regret to inform you that we will not be proceeding with your application. We wish you the very best in your future endeavors and hope you continue to strive for improvement🤞.</p>", unsafe_allow_html=True)
 
     
 
@@ -66,25 +66,21 @@ def display_emotion(result):
 
 def footer():
     # Footer Section
-    st.write("<img src='placement_drive.png' style='border-radius: 50%; width: 150px; height: 150px; object-fit: cover;'/>", unsafe_allow_html=True)
-    st.caption("The Bad Beast Coder")
 
     st.markdown('<style>div.block-container{padding-bottom: 100px;,text-align: center;}</style>', unsafe_allow_html=True)
     st.markdown("""---""")
     st.markdown("""
         <p  🚀 Let's Connect!
-        align='center'>Developed by Mani Saketh. If you want any assistances or have any  queries. just, feel free to reach out!
-        </p>
+        align='center'>Developed by Gandham Mani Saketh</p>
         """, unsafe_allow_html=True)
     st.markdown("""
     <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-        <img src="faheem.jpg" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
-        <p style="text-align: center; margin-top: 10px;">Your Caption Here</p>
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczOw-dWGOGG3dHdoVAk-DWMJg6HcVITQTysy8sjdNyIjnsLx-IADsaRe-HIl7ZyjIrQ9ElEjwk4JAu1FjCJyhf96mlBB9hH-rHj2huXQPYWcGI3MZASCvX5zJLUnZDybL8fBKwgJXLSykjKqVM8Xz8UYAe_ujD8EtWisNyfWLA3PNa1U_lYxYgaKJGWBZq1Zoha09vqNjuVbOcptk-OJKLnlagDFITSzfpw6jLCTvIDEn_wXxvvOGzMulJMQjFHvapDYM0XmoegC43rVcCjN874QHoEpd54PIyKCD8DQ8E43nUcnKyl7Guq1OLybaLWX5ot5orBnQi64AdYkBMYGyp6zVblcbqpdOx1LR7TFB3X6FLrcmpCr-u9Q1KQkPS41yZbGGp3bb4_aFOFnTjNz7EXuLPUikH5fdWfSvu3hENM2AfTjkHoQ63qbhtrs0rjoeg6OlrfiEhewXNX9vhalagO6CkcuYaTnSHG6yGdlkqVZNHPrIWKkNuS3Ios28Nisx5RxZJnYoaPewIG9PKbifvsmw05oFmS2HcFYykvDhFgMvnSxD7clsTbPHq7PAGWwTPDwXu_Q5y0slZWh97TUEU15pmUzF4-Z3lFKSlUg2cdafEFBCzYp-44o1bMR_DszodCNSBS4TR6_iXVTsjUtAeKOCWSKxVYoNwZ0RVS7lkYi6kZ9MKZI1IfD7UFkbQWYQc5z3ChrNgSoRtDxDcP1jp7R_V3OS-kXo9Alxw-6kwyus7GiIi45tHMEUMe8J656TKwMaJUv-SEXyGpibu0Nn2OL2-O-_st5Z1CHc9ylJ2DiNo-DwVtQLC9_H7JqzrLk0XMCEUGYIgfrJt49uTBpF2tT1ouwwk66pA6y65wTXkVQlwaH8Atv_vkKJM6jr0z6StdFFO9VwauiKUWJw1aOeT2e=w489-h869-s-no-gm?authuser=0.jpg" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
+        <p style="text-align: center; margin-top: 10px;">Saketh07</p>
     </div>"""
-        , unsafe_allow_html=True)
-    st.markdown("""
-        <p align="center">  gandhammani2421@gmail.com
-        </p>
+    , unsafe_allow_html=True)
+
+    st.markdown(""" <p align="center">If you want any assistances or have any  queries. just, feel free to reach out!</p>
         <p align="center">
           <a href="https://www.linkedin.com/in/gandhammanisaketh2421/" target="_blank">
             <img src="https://img.icons8.com/fluent/48/000000/linkedin.png" alt="LinkedIn" style="width:40px;"/>
@@ -92,15 +88,13 @@ def footer():
           <a href="https://github.com/GANDHAMMANI" target="_blank">
             <img src="https://img.icons8.com/fluent/48/000000/github.png" alt="GitHub" style="width:40px;"/>
           </a>
-        
+          <a href="mailto:gandhammani2421@gmail.com" target="_blank">
+            <img src="https://img.icons8.com/fluent/48/000000/gmail.png" alt="GitHub" style="width:40px;"/>
+          </a>
           <a href="https://www.instagram.com/mr.pandapal/">
             <img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" alt="Instagram" style="width: 40px;">
           </a>
-          
-
         </p>
-
-       
     """, unsafe_allow_html=True)
 
 def main():
