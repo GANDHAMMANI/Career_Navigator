@@ -81,25 +81,27 @@ def footer():
 
     with col2:
         st.image("manisaketh.png", caption="-Saketh07", width=150, clamp=False, channels='RGB', output_format='auto')
-        st.markdown(
-        """
-        <style>
-            @media screen and (max-width: 600px) {
-                .block-container {
-                    padding-bottom: 50px;
-                }
-                h1 {
-                    font-size: 50px !important;
-                }
-            }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
-
+       
+    
     with col3:
         st.write("")
+    st.markdown(
+    """
+    <style>
+        @media screen and (max-width: 600px) {
+            [data-testid="stHorizontalBlock"] > div:first-child,
+            [data-testid="stHorizontalBlock"] > div:last-child {
+                display: none !important;
+            }
 
+            [data-testid="stHorizontalBlock"] > div:nth-child(2) {
+                width: 100% !important;
+            }
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
     st.markdown(""" <p align="center">If you want any assistances or have any  queries. just, feel free to reach out!</p>
         <p align="center">
           <a href="https://www.linkedin.com/in/gandhammanisaketh2421/" target="_blank">
