@@ -74,7 +74,7 @@ def footer():
         align='center'>Developed by Gandham Mani Saketh</p>
         """, unsafe_allow_html=True)
 
-    col1, col2, col3 = st.columns([5.5,6,1])
+    col1, col2, col3 = st.columns([5,6,1])
 
     with col1:
         st.write("")
