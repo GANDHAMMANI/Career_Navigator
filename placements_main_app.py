@@ -75,7 +75,7 @@ def footer():
         """, unsafe_allow_html=True)
     st.markdown("""
     <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-        <img src="https://github.com/GANDHAMMANI/Career_Navigator/blob/main/WhatsApp%20Image%202024-02-19%20at%2022.04.19_54ce6b03.jpg" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczOw-dWGOGG3dHdoVAk-DWMJg6HcVITQTysy8sjdNyIjnsLx-IADsaRe-HIl7ZyjIrQ9ElEjwk4JAu1FjCJyhf96mlBB9hH-rHj2huXQPYWcGI3MZASCvX5zJLUnZDybL8fBKwgJXLSykjKqVM8Xz8UYAe_ujD8EtWisNyfWLA3PNa1U_lYxYgaKJGWBZq1Zoha09vqNjuVbOcptk-OJKLnlagDFITSzfpw6jLCTvIDEn_wXxvvOGzMulJMQjFHvapDYM0XmoegC43rVcCjN874QHoEpd54PIyKCD8DQ8E43nUcnKyl7Guq1OLybaLWX5ot5orBnQi64AdYkBMYGyp6zVblcbqpdOx1LR7TFB3X6FLrcmpCr-u9Q1KQkPS41yZbGGp3bb4_aFOFnTjNz7EXuLPUikH5fdWfSvu3hENM2AfTjkHoQ63qbhtrs0rjoeg6OlrfiEhewXNX9vhalagO6CkcuYaTnSHG6yGdlkqVZNHPrIWKkNuS3Ios28Nisx5RxZJnYoaPewIG9PKbifvsmw05oFmS2HcFYykvDhFgMvnSxD7clsTbPHq7PAGWwTPDwXu_Q5y0slZWh97TUEU15pmUzF4-Z3lFKSlUg2cdafEFBCzYp-44o1bMR_DszodCNSBS4TR6_iXVTsjUtAeKOCWSKxVYoNwZ0RVS7lkYi6kZ9MKZI1IfD7UFkbQWYQc5z3ChrNgSoRtDxDcP1jp7R_V3OS-kXo9Alxw-6kwyus7GiIi45tHMEUMe8J656TKwMaJUv-SEXyGpibu0Nn2OL2-O-_st5Z1CHc9ylJ2DiNo-DwVtQLC9_H7JqzrLk0XMCEUGYIgfrJt49uTBpF2tT1ouwwk66pA6y65wTXkVQlwaH8Atv_vkKJM6jr0z6StdFFO9VwauiKUWJw1aOeT2e=w489-h869-s-no-gm?authuser=0.jpg" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
         <p style="text-align: center; margin-top: 10px;">Saketh07</p>
     </div>"""
     , unsafe_allow_html=True)
