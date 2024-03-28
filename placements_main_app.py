@@ -68,7 +68,7 @@ def footer():
     # Footer Section
 
     st.markdown('<style>div.block-container{padding-bottom: 100px;,text-align: center;}</style>', unsafe_allow_html=True)
-    st.markdown("""---""")
+    st.markdown("""   """)
     st.markdown("""
         <p  🚀 Let's Connect!
         align='center'>Developed by Gandham Mani Saketh</p>
