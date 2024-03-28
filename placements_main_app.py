@@ -80,8 +80,9 @@ def footer():
         st.write("")
 
     with col2:
+        st.write("")  # Add an empty space to center the image
         st.image("manisaketh.png", caption="-Saketh07", width=150, clamp=False, channels='RGB', output_format='auto')
-
+        st.write("")  # Add another empty space for better alignment
 
     with col3:
         st.write("")
@@ -104,21 +105,22 @@ def footer():
 )
 
     st.markdown(""" <p align="center">If you want any assistances or have any  queries. just, feel free to reach out!</p>
-        <p align="center">
-          <a href="https://www.linkedin.com/in/gandhammanisaketh2421/" target="_blank">
+          <p align="center">
+        <a href="https://www.linkedin.com/in/gandhammanisaketh2421/" target="_blank">
             <img src="https://img.icons8.com/fluent/48/000000/linkedin.png" alt="LinkedIn" style="width:40px;"/>
-          </a>
-          <a href="https://github.com/GANDHAMMANI" target="_blank">
+        </a>
+        <a href="https://github.com/GANDHAMMANI" target="_blank">
             <img src="https://img.icons8.com/fluent/48/000000/github.png" alt="GitHub" style="width:40px;"/>
-          </a>
-          <a href="mailto:gandhammani2421@gmail.com" target="_blank">
+        </a>
+        <a href="mailto:gandhammani2421@gmail.com" target="_blank">
             <img src="https://img.icons8.com/fluent/48/000000/gmail.png" alt="GitHub" style="width:40px;"/>
-          </a>
-          <a href="https://www.instagram.com/mr.pandapal/">
+        </a>
+        <a href="https://www.instagram.com/mr.pandapal/">
             <img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" alt="Instagram" style="width: 40px;">
-          </a>
-        </p>
-    """, unsafe_allow_html=True)
+        </a>
+    </p>
+""", unsafe_allow_html=True)
+
 
 def main():
     st.markdown("<h1 style='text-align: center; font-size: 100px;'>CareerNavigator 🧭</h1>", unsafe_allow_html=True)
