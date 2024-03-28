@@ -155,7 +155,7 @@ def main():
         """,
         unsafe_allow_html=True
     )
-
+    st.divider()
     footer()
 
 if __name__ == '__main__':
