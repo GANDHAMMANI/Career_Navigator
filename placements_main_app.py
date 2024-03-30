@@ -76,14 +76,16 @@ def footer():
 
     col1, col2, col3 = st.columns([5.5,6,1])
 
-with col1:
-    st.write("")
+    with col1:
+        st.write("")
 
-with col2:
-    st.image("manisaketh.png", caption="-Saketh07", width=150, clamp=False, channels='RGB', output_format='auto', use_column_width='always')
+    with col2:
+        st.write("")  # Add an empty space to center the image
+        st.image("manisaketh.png", caption="-Saketh07", width=150, clamp=False, channels='RGB', output_format='auto', use_column_width='always')
+        st.write("")  # Add another empty space for better alignment
 
-with col3:
-    st.write("")
+    with col3:
+        st.write("")
 
 
     st.markdown(""" <p align="center">If you want any assistances or have any  queries. just, feel free to reach out!</p>
@@ -151,20 +153,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-# Media screen CSS for responsiveness
-st.markdown(
-    """
-    <style>
-        @media screen and (max-width: 600px) {
-            .block-container {
-                padding-bottom: 50px;
-            }
-            h1 {
-                font-size: 50px !important;
-            }
-        }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
