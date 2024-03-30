@@ -86,23 +86,7 @@ def footer():
 
     with col3:
         st.write("")
-    st.markdown(
-    """
-    <style>
-        @media screen and (max-width: 600px) {
-            [data-testid="stHorizontalBlock"] > div:first-child,
-            [data-testid="stHorizontalBlock"] > div:last-child {
-                display: none !important;
-            }
 
-            [data-testid="stHorizontalBlock"] > div:nth-child(2) {
-                width: 100% !important;
-            }
-        }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 
     st.markdown(""" <p align="center">If you want any assistances or have any  queries. just, feel free to reach out!</p>
           <p align="center">
@@ -164,24 +148,25 @@ def main():
         if submit_button:
             display_emotion(result)
 
-    # Media screen CSS for responsiveness
-    st.markdown(
-        """
-        <style>
-            @media screen and (max-width: 600px) {
-                .block-container {
-                    padding-bottom: 50px;
-                }
-                h1 {
-                    font-size: 50px !important;
-                }
-            }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
 
     footer()
 
 if __name__ == '__main__':
     main()
+
+# Media screen CSS for responsiveness
+st.markdown(
+    """
+    <style>
+        @media screen and (max-width: 600px) {
+            .block-container {
+                padding-bottom: 50px;
+            }
+            h1 {
+                font-size: 50px !important;
+            }
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
