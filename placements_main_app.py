@@ -97,6 +97,8 @@ def footer():
 """, unsafe_allow_html=True)
     st.markdown("""  <p align="center"> -Saketh07</p>""", unsafe_allow_html=True)
 
+
+
 def main():
     st.markdown("<h1 style='text-align: center; font-size: 100px;'>CareerNavigator 🧭</h1>", unsafe_allow_html=True)
     st.divider()
