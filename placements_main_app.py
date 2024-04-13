@@ -112,7 +112,7 @@ def main():
             <div style="text-align: justify;">
                 At CareerCatalyst, we're committed to helping individuals navigate their career
                 journey with confidence and clarity. Leveraging cutting-edge machine learning algorithms,
-                particularly the powerful AdaBoost algorithm, our platform provides personalized insights 
+                particularly the powerful SVM algorithm, our platform provides personalized insights 
                 and recommendations to empower you in making informed career decisions.
                 Whether you're a recent graduate exploring job opportunities, a mid-career professional 
                 seeking advancement, or someone considering a career change, CareerCatalyst equips you
