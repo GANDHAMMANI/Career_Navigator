@@ -25,7 +25,7 @@ You can interact with the live Streamlit application here: [Career Navigator Web
   - **Machine Learning**: `scikit-learn` 🤖, `pandas` 🐼, `numpy` 🔢
   - **Visualization**: `matplotlib` 📉, `seaborn` 🌊
   - **Web Application**: `Streamlit` 🌐
-- **Model**: Supervised machine learning model (e.g., Logistic Regression, Decision Tree, Random Forest)
+- **Model**: Supervised machine learning model (Logistic Regression)
 - **Deployment**: Streamlit 🚀
 
 
