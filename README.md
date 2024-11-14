@@ -1,6 +1,7 @@
 # 🎯 Career Navigator
 
 This repository contains the code for a predictive model designed to determine the likelihood of student placement in career opportunities. The model has been deployed as a live web application using **Streamlit**, allowing users to interactively input data and visualize placement predictions in real-time.
+![p](https://github.com/user-attachments/assets/8a199a8e-60b2-425c-b063-88455b32ef0f)
 
 ## 📝 Project Overview
 
